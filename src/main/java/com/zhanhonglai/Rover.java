@@ -1,4 +1,5 @@
 package com.zhanhonglai;
+
 public class Rover {
     private String direction;
 
@@ -11,11 +12,12 @@ public class Rover {
     }
 
     public void turnLeft() {
-        if (direction.equalsIgnoreCase("EAST")){
-            direction="NORTH";
-        }
-        else if (direction.equalsIgnoreCase("NORTH")){
+        if (direction.equalsIgnoreCase("EAST")) {
+            direction = "NORTH";
+        } else if (direction.equalsIgnoreCase("NORTH")) {
             direction = "WEST";
+        } else if (direction.equalsIgnoreCase("WEST")) {
+            direction = "SOUTH";
         }
     }
 }

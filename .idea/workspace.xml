@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7916ff-0800-4a70-89dc-f2480faefdcc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java" afterPath="$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" />
     </list>
     <ignored path="MarsRoverDayByDay.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/RoverRotateTest.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375105891888" ignored="false" />
     <file path="/Dummy.txt" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375105169665" ignored="false" />
     <file path="/fragment.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375105218583" ignored="false" />
-    <file path="/Rover.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375105670334" ignored="false" />
+    <file path="/Rover.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375105991369" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <file leaf-file-name="RoverRotateLeftTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="21" selection-start="931" selection-end="931" vertical-scroll-proportion="0.78417265">
+            <state line="35" column="20" selection-start="952" selection-end="952" vertical-scroll-proportion="0.8201439">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,7 +93,7 @@
       <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+            <state line="19" column="32" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,8 +118,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/RoverRotateTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" />
       </list>
     </option>
   </component>
@@ -529,14 +529,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+        <state line="19" column="32" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="21" selection-start="931" selection-end="931" vertical-scroll-proportion="0.78417265">
+        <state line="35" column="20" selection-start="952" selection-end="952" vertical-scroll-proportion="0.8201439">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
