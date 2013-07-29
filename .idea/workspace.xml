@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7916ff-0800-4a70-89dc-f2480faefdcc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java" afterPath="$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java" />
     </list>
     <ignored path="MarsRoverDayByDay.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/RoverRotateTest.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375105563098" ignored="false" />
+    <file path="/RoverRotateTest.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375105891888" ignored="false" />
     <file path="/Dummy.txt" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375105169665" ignored="false" />
     <file path="/fragment.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375105218583" ignored="false" />
     <file path="/Rover.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375105670334" ignored="false" />
@@ -82,7 +82,7 @@
       <file leaf-file-name="RoverRotateLeftTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="20" selection-start="614" selection-end="614" vertical-scroll-proportion="0.79136693">
+            <state line="34" column="21" selection-start="931" selection-end="931" vertical-scroll-proportion="0.78417265">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,8 +118,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/RoverRotateTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java" />
       </list>
     </option>
   </component>
@@ -536,7 +536,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="614" selection-end="614" vertical-scroll-proportion="0.79136693">
+        <state line="34" column="21" selection-start="931" selection-end="931" vertical-scroll-proportion="0.78417265">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
