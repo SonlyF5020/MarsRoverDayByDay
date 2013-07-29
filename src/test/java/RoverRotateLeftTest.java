@@ -1,6 +1,7 @@
+import com.zhanhonglai.Rover;
 import org.junit.Test;
 
-import static com.sun.org.apache.xerces.internal.util.PropertyState.is;
+import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 public class RoverRotateLeftTest {
@@ -12,7 +13,6 @@ public class RoverRotateLeftTest {
         //WHEN
         rover.turnLeft();
         //THEN
-        assertThat(rover.getDirection(),is("North"));
-
+        assertThat(rover.getDirection(), is("NORTH"));
     }
 }
