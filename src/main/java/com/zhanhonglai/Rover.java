@@ -14,5 +14,8 @@ public class Rover {
         if (direction.equalsIgnoreCase("EAST")){
             direction="NORTH";
         }
+        else if (direction.equalsIgnoreCase("NORTH")){
+            direction = "WEST";
+        }
     }
 }
