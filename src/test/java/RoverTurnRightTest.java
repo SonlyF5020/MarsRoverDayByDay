@@ -50,6 +50,5 @@ public class RoverTurnRightTest {
         rover.turnRight();
         //THEN
         assertThat(rover.getDirection(),is("NORTH"));
-
     }
 }
