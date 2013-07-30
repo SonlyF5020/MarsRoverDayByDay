@@ -51,11 +51,14 @@ public class Rover {
     }
 
     public void move() {
-        if (direction.equalsIgnoreCase("EAST")){
-             xPosition++;
+        if (direction.equalsIgnoreCase("EAST")) {
+            xPosition++;
         }
-        if (direction.equalsIgnoreCase("WEST")){
+        if (direction.equalsIgnoreCase("WEST")) {
             xPosition--;
+        }
+        if (direction.equalsIgnoreCase("NORTH")){
+            yPosition++;
         }
     }
 }
