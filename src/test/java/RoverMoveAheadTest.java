@@ -20,7 +20,7 @@ public class RoverMoveAheadTest {
     }
 
     @Test
-    public void shouldArrive_1_2_whenMoveEastFrom_2_2() throws Exception {
+    public void shouldArrive_1_2_whenMoveWestFrom_2_2() throws Exception {
         //GIVEN
         Rover rover = new Rover();
         rover.setDirection("WEST");
@@ -31,5 +31,19 @@ public class RoverMoveAheadTest {
         assertThat(rover.getDirection(),is("WEST"));
         assertThat(rover.getXPosition(),is(1));
         assertThat(rover.getYPosition(),is(2));
+    }
+
+    @Test
+    public void shouldArrive_2_3_whenMoveNorthFrom_2_2() throws Exception {
+        //GIVEN
+        Rover rover = new Rover();
+        rover.setDirection("NORTH");
+        rover.setPosition(2,2);
+        //WHEN
+        rover.move();
+        //THEN
+        assertThat(rover.getDirection(),is("NORTH"));
+        assertThat(rover.getXPosition(),is(2));
+        assertThat(rover.getYPosition(),is(3));
     }
 }
