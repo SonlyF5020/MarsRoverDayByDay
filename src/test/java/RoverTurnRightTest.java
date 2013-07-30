@@ -1,14 +1,19 @@
 import com.zhanhonglai.Rover;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 public class RoverTurnRightTest {
+    Rover rover;
+    @Before
+    public void setUp(){
+        rover = new Rover();
+    }
     @Test
     public void shouldFaceEastWhenTurnRightFromNorth() throws Exception {
         //GIVEN
-        Rover rover = new Rover();
         rover.setDirection("NORTH");
         //WHEN
         rover.turnRight();
@@ -19,7 +24,6 @@ public class RoverTurnRightTest {
     @Test
     public void shouldFaceSouthWhenTurnRightFromEast() throws Exception {
         //GIVEN
-        Rover rover = new Rover();
         rover.setDirection("EAST");
         //WHEN
         rover.turnRight();
@@ -30,7 +34,6 @@ public class RoverTurnRightTest {
     @Test
     public void shouldFaceWestWhenTurnRightFromSouth() throws Exception {
         //GIVEN
-        Rover rover = new Rover();
         rover.setDirection("SOUTH");
         //WHEN
         rover.turnRight();
