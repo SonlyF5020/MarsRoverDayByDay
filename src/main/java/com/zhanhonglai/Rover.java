@@ -24,8 +24,11 @@ public class Rover {
     }
 
     public void turnRight() {
-        if (direction.equalsIgnoreCase("NORTH")){
+        if (direction.equalsIgnoreCase("NORTH")) {
             direction = "EAST";
+        }
+        else if (direction.equalsIgnoreCase("EAST")){
+            direction = "SOUTH";
         }
     }
 }
