@@ -30,5 +30,8 @@ public class Rover {
         else if (direction.equalsIgnoreCase("EAST")){
             direction = "SOUTH";
         }
+        else if (direction.equalsIgnoreCase("SOUTH")){
+            direction = "WEST";
+        }
     }
 }

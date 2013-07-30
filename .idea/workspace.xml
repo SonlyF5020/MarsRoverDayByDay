@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7916ff-0800-4a70-89dc-f2480faefdcc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RoverTurnRightTest.java" afterPath="$PROJECT_DIR$/src/test/java/RoverTurnRightTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MarsRoverDayByDay.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/RoverRotateTest.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375106534440" ignored="false" />
     <file path="/Dummy.txt" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375178364443" ignored="false" />
     <file path="/fragment.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375105218583" ignored="false" />
-    <file path="/Rover.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375178577521" ignored="false" />
+    <file path="/Rover.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375178755187" ignored="false" />
     <file path="/RoverTurnRightTest.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375178687541" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +93,7 @@
       <file leaf-file-name="RoverTurnRightTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoverTurnRightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="52" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.92805755">
+            <state line="35" column="21" selection-start="957" selection-end="957" vertical-scroll-proportion="0.8561151">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,7 +104,7 @@
       <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="32" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+            <state line="25" column="16" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,8 +130,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/RoverRotateTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoverTurnRightTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" />
       </list>
     </option>
   </component>
@@ -623,14 +624,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="32" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+        <state line="25" column="16" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RoverTurnRightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="52" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.92805755">
+        <state line="35" column="21" selection-start="957" selection-end="957" vertical-scroll-proportion="0.8561151">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
