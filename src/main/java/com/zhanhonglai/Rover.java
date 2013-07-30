@@ -57,8 +57,11 @@ public class Rover {
         if (direction.equalsIgnoreCase("WEST")) {
             xPosition--;
         }
-        if (direction.equalsIgnoreCase("NORTH")){
+        if (direction.equalsIgnoreCase("NORTH")) {
             yPosition++;
+        }
+        if (direction.equalsIgnoreCase("SOUTH")) {
+            yPosition--;
         }
     }
 }
