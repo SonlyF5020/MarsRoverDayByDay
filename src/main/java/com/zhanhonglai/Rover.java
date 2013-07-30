@@ -22,4 +22,10 @@ public class Rover {
             direction = "EAST";
         }
     }
+
+    public void turnRight() {
+        if (direction.equalsIgnoreCase("NORTH")){
+            direction = "EAST";
+        }
+    }
 }

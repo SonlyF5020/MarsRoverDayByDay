@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7916ff-0800-4a70-89dc-f2480faefdcc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RoverTurnRightTest.java" afterPath="$PROJECT_DIR$/src/test/java/RoverTurnRightTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MarsRoverDayByDay.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/RoverRotateTest.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375106534440" ignored="false" />
     <file path="/Dummy.txt" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375162291180" ignored="false" />
     <file path="/fragment.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375105218583" ignored="false" />
-    <file path="/Rover.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375106638798" ignored="false" />
+    <file path="/Rover.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375162613316" ignored="false" />
     <file path="/RoverTurnRightTest.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375162508401" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +96,7 @@
       <file leaf-file-name="RoverTurnRightTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoverTurnRightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="6" selection-start="348" selection-end="348" vertical-scroll-proportion="0.4676259">
+            <state line="14" column="16" selection-start="399" selection-end="399" vertical-scroll-proportion="0.50359714">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,7 +107,7 @@
       <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="31" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+            <state line="27" column="31" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,8 +133,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/RoverRotateTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoverTurnRightTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" />
       </list>
     </option>
   </component>
@@ -250,7 +252,7 @@
       <recent name="com.zhanhonglai" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RoverRotateLeftTest">
+  <component name="RunManager" selected="JUnit.RoverTurnRightTest">
     <configuration default="false" name="RoverRotateLeftTest.shouldFaceNorthWhenTurnLeftFromEast" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MarsRoverDayByDay" />
@@ -306,6 +308,29 @@
       <option name="MAIN_CLASS_NAME" value="RoverRotateLeftTest" />
       <option name="METHOD_NAME" value="shouldFaceWestWhenTurnLeftFromNorth" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RoverTurnRightTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MarsRoverDayByDay" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoverTurnRightTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -411,16 +436,18 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.RoverRotateLeftTest.shouldFaceNorthWhenTurnLeftFromEast" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.RoverRotateLeftTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.RoverRotateLeftTest.shouldFaceWestWhenTurnLeftFromNorth" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RoverTurnRightTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RoverRotateLeftTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RoverRotateLeftTest.shouldFaceWestWhenTurnLeftFromNorth" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RoverRotateLeftTest.shouldFaceNorthWhenTurnLeftFromEast" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RoverTurnRightTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RoverRotateLeftTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RoverRotateLeftTest.shouldFaceWestWhenTurnLeftFromNorth" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RoverRotateLeftTest.shouldFaceNorthWhenTurnLeftFromEast" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -460,7 +487,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.67018074" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -563,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="31" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RoverRotateLeftTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="51" selection-start="565" selection-end="600" vertical-scroll-proportion="0.0">
@@ -579,9 +599,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="31" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RoverTurnRightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="348" selection-end="348" vertical-scroll-proportion="0.4676259">
+        <state line="14" column="16" selection-start="399" selection-end="399" vertical-scroll-proportion="0.50359714">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
