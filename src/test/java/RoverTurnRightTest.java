@@ -26,4 +26,16 @@ public class RoverTurnRightTest {
         //THEN
         assertThat(rover.getDirection(),is("SOUTH"));
     }
+
+    @Test
+    public void shouldFaceWestWhenTurnRightFromSouth() throws Exception {
+        //GIVEN
+        Rover rover = new Rover();
+        rover.setDirection("SOUTH");
+        //WHEN
+        rover.turnRight();
+        //THEN
+        assertThat(rover.getDirection(),is("WEST"));
+
+    }
 }
