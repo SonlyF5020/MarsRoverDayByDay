@@ -70,4 +70,16 @@ public class Rover {
             yPosition--;
         }
     }
+
+    public void setPosition(RoverPosition position) {
+        this.position = position;
+    }
+
+    public RoverPosition getPosition() {
+        return position;
+    }
+
+    public void moveAhead() {
+        position.moveAt(direction);
+    }
 }
