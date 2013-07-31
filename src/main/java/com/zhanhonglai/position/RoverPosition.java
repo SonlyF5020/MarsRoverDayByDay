@@ -8,4 +8,12 @@ public class RoverPosition {
         this.xPosition = xPosition;
         this.yPosition = yPosition;
     }
+
+    public Integer getYPosition() {
+        return yPosition;
+    }
+
+    public Integer getXPosition() {
+        return xPosition;
+    }
 }

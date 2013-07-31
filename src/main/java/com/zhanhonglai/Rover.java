@@ -47,10 +47,12 @@ public class Rover {
     }
 
     public Integer getYPosition() {
+        int result = position.getYPosition();
         return yPosition;
     }
 
     public Integer getXPosition() {
+        int result = position.getXPosition();
         return xPosition;
     }
 
