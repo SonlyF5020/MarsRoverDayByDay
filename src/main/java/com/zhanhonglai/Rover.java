@@ -1,9 +1,12 @@
 package com.zhanhonglai;
 
+import com.zhanhonglai.position.RoverPosition;
+
 public class Rover {
     private String direction;
     private Integer yPosition;
     private Integer xPosition;
+    private RoverPosition position;
 
     public void setDirection(String direction) {
         this.direction = direction;
