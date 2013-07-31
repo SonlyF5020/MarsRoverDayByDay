@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7916ff-0800-4a70-89dc-f2480faefdcc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhanhonglai/position/RoverPosition.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zhanhonglai/position/RoverPosition.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhanhonglai/position/RoverPosition.java" />
     </list>
     <ignored path="MarsRoverDayByDay.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/RoverRotateTest.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375106534440" ignored="false" />
     <file path="/Dummy.txt" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375230433612" ignored="false" />
     <file path="/fragment.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375230501821" ignored="false" />
-    <file path="/Rover.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375230490182" ignored="false" />
+    <file path="/Rover.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375230784034" ignored="false" />
     <file path="/RoverTurnRightTest.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375190151555" ignored="false" />
     <file path="/.gitignore" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375179999285" ignored="false" />
     <file path="/RoverMoveAheadTest.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375191300971" ignored="false" />
+    <file path="/RoverPosition.java" changelist="9a7916ff-0800-4a70-89dc-f2480faefdcc" time="1375230825369" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,19 +86,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Rover.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+            <state line="44" column="56" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.43396226">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoverPosition.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RoverPosition.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/position/RoverPosition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.023584906">
+            <state line="8" column="35" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -702,16 +702,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/position/RoverPosition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+        <state line="8" column="35" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/position/RoverPosition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhanhonglai/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.023584906">
+        <state line="44" column="56" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.43396226">
           <folding />
         </state>
       </provider>

@@ -41,6 +41,7 @@ public class Rover {
     }
 
     public void setPosition(int xPosition, int yPosition) {
+        this.position = new RoverPosition(xPosition,yPosition);
         this.xPosition = xPosition;
         this.yPosition = yPosition;
     }
