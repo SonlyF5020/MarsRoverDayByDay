@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertThat;
 
-public class RoverPositionMoveTest {
+public class RoverMoveTest {
     Rover rover;
     @Before
     public void setUp(){
@@ -18,7 +18,7 @@ public class RoverPositionMoveTest {
         rover.setDirection("E");
         rover.setPosition(new RoverPosition(2,2));
         //WHEN
-        rover.moveAhead();
+        rover.move();
         RoverPosition expectedPosition = new RoverPosition(3,2);
         //THEN
         assertThat(rover.getPosition(),equalTo(expectedPosition));
@@ -30,7 +30,7 @@ public class RoverPositionMoveTest {
         rover.setDirection("W");
         rover.setPosition(new RoverPosition(2,2));
         //WHEN
-        rover.moveAhead();
+        rover.move();
         RoverPosition expectedPosition = new RoverPosition(1,2);
         //THEN
         assertThat(rover.getPosition(),equalTo(expectedPosition));
@@ -42,7 +42,7 @@ public class RoverPositionMoveTest {
         rover.setDirection("N");
         rover.setPosition(new RoverPosition(2,2));
         //WHEN
-        rover.moveAhead();
+        rover.move();
         RoverPosition expectedPosition = new RoverPosition(2,3);
         //THEN
         assertThat(rover.getPosition(),equalTo(expectedPosition));
@@ -54,7 +54,7 @@ public class RoverPositionMoveTest {
         rover.setDirection("S");
         rover.setPosition(new RoverPosition(2,2));
         //WHEN
-        rover.moveAhead();
+        rover.move();
         RoverPosition expectedPosition = new RoverPosition(2,1);
         //THEN
         assertThat(rover.getPosition(),equalTo(expectedPosition));
