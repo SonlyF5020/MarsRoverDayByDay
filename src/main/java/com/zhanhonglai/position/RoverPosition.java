@@ -24,6 +24,9 @@ public class RoverPosition {
         if (direction.equals("W")) {
             xPosition--;
         }
+        if (direction.equals("N")) {
+            yPosition++;
+        }
     }
 
     @Override
