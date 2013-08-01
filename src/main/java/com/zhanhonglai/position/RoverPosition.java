@@ -33,7 +33,7 @@ public class RoverPosition {
 
         RoverPosition that = (RoverPosition) o;
 
-        return !(xPosition != null ? !xPosition.equals(that.xPosition) : that.xPosition != null);
+        return !(xPosition != null ? !xPosition.equals(that.xPosition) : that.xPosition != null) && !(yPosition != null ? !yPosition.equals(that.yPosition) : that.yPosition != null);
 
     }
 
