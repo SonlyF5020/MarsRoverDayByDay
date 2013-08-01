@@ -1,5 +1,6 @@
 package com.zhanhonglai;
 
+import com.zhanhonglai.command.CommandCenter;
 import com.zhanhonglai.position.RoverPosition;
 
 public class Rover {
@@ -7,6 +8,7 @@ public class Rover {
     private Integer yPosition;
     private Integer xPosition;
     private RoverPosition position;
+    private CommandCenter commandCenter = new CommandCenter();
 
     public void setDirection(String direction) {
         this.direction = direction;
@@ -52,7 +54,6 @@ public class Rover {
     }
 
     public Integer getXPosition() {
-        int result = position.getXPosition();
         return xPosition;
     }
 
@@ -80,6 +81,6 @@ public class Rover {
     }
 
     public void moveAhead() {
-        position.moveAt(direction);
+        commandCenter.move(position, direction);
     }
 }
