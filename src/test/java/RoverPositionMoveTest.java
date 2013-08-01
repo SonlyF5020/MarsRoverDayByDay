@@ -18,4 +18,17 @@ public class RoverPositionMoveTest {
         //THEN
         assertThat(rover.getPosition(),equalTo(expectedPosition));
     }
+
+    @Test
+    public void shouldArrive_1_2_whenMoveWestFrom_2_2() throws Exception {
+        //GIVEN
+        Rover rover = new Rover();
+        rover.setDirection("W");
+        rover.setPosition(new RoverPosition(2,2));
+        //WHEN
+        rover.moveAhead();
+        RoverPosition expectedPosition = new RoverPosition(3,2);
+        //THEN
+        assertThat(rover.getPosition(),equalTo(expectedPosition));
+    }
 }
