@@ -5,8 +5,6 @@ import com.zhanhonglai.position.RoverPosition;
 
 public class Rover {
     private String direction;
-    private Integer yPosition;
-    private Integer xPosition;
     private RoverPosition position;
     private CommandCenter commandCenter = new CommandCenter();
 
@@ -39,36 +37,6 @@ public class Rover {
             direction = "WEST";
         } else if (direction.equalsIgnoreCase("WEST")) {
             direction = "NORTH";
-        }
-    }
-
-    public void setPosition(int xPosition, int yPosition) {
-        this.position = new RoverPosition(xPosition,yPosition);
-        this.xPosition = xPosition;
-        this.yPosition = yPosition;
-    }
-
-    public Integer getYPosition() {
-        int result = position.getYPosition();
-        return yPosition;
-    }
-
-    public Integer getXPosition() {
-        return xPosition;
-    }
-
-    public void move() {
-        if (direction.equalsIgnoreCase("EAST")) {
-            xPosition++;
-        }
-        if (direction.equalsIgnoreCase("WEST")) {
-            xPosition--;
-        }
-        if (direction.equalsIgnoreCase("NORTH")) {
-            yPosition++;
-        }
-        if (direction.equalsIgnoreCase("SOUTH")) {
-            yPosition--;
         }
     }
 
