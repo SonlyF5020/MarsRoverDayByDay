@@ -10,7 +10,7 @@ public class RoverPositionMoveTest {
     public void shouldArrive_3_2_whenMoveEastFrom_2_2() throws Exception {
         //GIVEN
         Rover rover = new Rover();
-        rover.setDirection("EAST");
+        rover.setDirection("E");
         rover.setPosition(new RoverPosition(2,2));
         //WHEN
         rover.moveAhead();

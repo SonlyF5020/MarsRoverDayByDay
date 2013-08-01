@@ -18,7 +18,7 @@ public class RoverPosition {
     }
 
     public void moveAt(String direction) {
-        if (direction.equals("EAST")){
+        if (direction.equals("E")){
             xPosition++;
         }
     }
