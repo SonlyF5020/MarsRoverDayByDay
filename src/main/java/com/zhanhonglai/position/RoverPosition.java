@@ -18,8 +18,11 @@ public class RoverPosition {
     }
 
     public void moveAt(String direction) {
-        if (direction.equals("E")){
+        if (direction.equals("E")) {
             xPosition++;
+        }
+        if (direction.equals("W")) {
+            xPosition--;
         }
     }
 
