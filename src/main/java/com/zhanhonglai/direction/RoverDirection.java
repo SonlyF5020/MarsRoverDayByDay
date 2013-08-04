@@ -20,6 +20,7 @@ public enum RoverDirection {
         if (this.equals(WEST)) return NORTH;
         if (this.equals(NORTH)) return EAST;
         if (this.equals(EAST)) return SOUTH;
+        if (this.equals(SOUTH)) return WEST;
         return null;
     }
 }
