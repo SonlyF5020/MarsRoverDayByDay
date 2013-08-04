@@ -1,9 +1,19 @@
-/**
- * Created with IntelliJ IDEA.
- * User: twer
- * Date: 8/5/13
- * Time: 7:36 AM
- * To change this template use File | Settings | File Templates.
- */
+import com.zhanhonglai.Rover;
+import com.zhanhonglai.direction.RoverDirection;
+import org.junit.Test;
+
+import static org.hamcrest.core.IsEqual.equalTo;
+import static org.junit.Assert.assertThat;
+
 public class RoverTurnRightTest {
+    @Test
+    public void shouldBeNorthWhenTurnLeftFromWest() throws Exception {
+        //GIVEN
+        Rover rover = new Rover();
+        rover.setRoverDirection(RoverDirection.WEST);
+        //WHEN
+        rover.turnRoverRight();
+        //THEN
+        assertThat(rover.getRoverDirection(),equalTo(RoverDirection.NORTH));
+    }
 }

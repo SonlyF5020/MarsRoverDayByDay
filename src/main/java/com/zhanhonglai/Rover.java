@@ -49,4 +49,8 @@ public class Rover {
     public void turnRoverLeft() {
         roverDirection = roverDirection.leftDirection();
     }
+
+    public void turnRoverRight() {
+        roverDirection = roverDirection.rightDirection();
+    }
 }
