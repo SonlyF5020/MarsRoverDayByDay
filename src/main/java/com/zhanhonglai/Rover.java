@@ -37,4 +37,16 @@ public class Rover {
     public void move() {
         commandCenter.move(this);
     }
+
+    public void setRoverDirection(RoverDirection roverDirection) {
+        this.roverDirection = roverDirection;
+    }
+
+    public RoverDirection getRoverDirection() {
+        return roverDirection;
+    }
+
+    public void turnRoverLeft() {
+        roverDirection = roverDirection.leftDirection();
+    }
 }

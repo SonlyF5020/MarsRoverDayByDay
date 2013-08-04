@@ -10,11 +10,11 @@ public class RoverTurnLeftTest {
     public void shouldBeNorthWhenTurnLeftFromEast() throws Exception {
         //GIVEN
         Rover rover = new Rover();
-        rover.setDirection(RoverDirection.EAST);
+        rover.setRoverDirection(RoverDirection.EAST);
         //WHEN
-        rover.turnLeft();
+        rover.turnRoverLeft();
         //THEN
-        assertThat(rover.getDirection(),equalTo(RoverDirection.NORTH));
+        assertThat(rover.getRoverDirection(),equalTo(RoverDirection.NORTH));
     }
 
 }
