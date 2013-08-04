@@ -14,4 +14,14 @@ public class DirectionTurnRightTest {
         //THEN
         assertThat(result,equalTo(RoverDirection.NORTH));
     }
+
+    @Test
+    public void shouldBeEastWhenTurnLeftFromNorth() throws Exception {
+        //GIVEN
+        RoverDirection roverDirection = RoverDirection.NORTH;
+        //WHEN
+        RoverDirection result = roverDirection.rightDirection();
+        //THEN
+        assertThat(result,equalTo(RoverDirection.EAST));
+    }
 }
