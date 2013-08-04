@@ -33,4 +33,12 @@ public class CommandCenter {
             rover.setDirection("EAST");
         }
     }
+
+    public void turnRoverLeft(Rover rover) {
+        rover.setRoverDirection(rover.getRoverDirection().leftDirection());
+    }
+
+    public void turnRoverRight(Rover rover) {
+        rover.setRoverDirection(rover.getRoverDirection().rightDirection());
+    }
 }

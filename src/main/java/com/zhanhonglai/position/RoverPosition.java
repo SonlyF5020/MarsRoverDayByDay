@@ -9,14 +9,6 @@ public class RoverPosition {
         this.yPosition = yPosition;
     }
 
-    public Integer getYPosition() {
-        return yPosition;
-    }
-
-    public Integer getXPosition() {
-        return xPosition;
-    }
-
     public void moveAt(String direction) {
         if (direction.equals("E")) {
             xPosition++;

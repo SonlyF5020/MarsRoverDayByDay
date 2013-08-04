@@ -18,14 +18,6 @@ public class Rover {
         return direction;
     }
 
-    public void turnLeft() {
-        commandCenter.turnLeft(this);
-    }
-
-    public void turnRight() {
-        commandCenter.turnRight(this);
-    }
-
     public void setPosition(RoverPosition position) {
         this.position = position;
     }
@@ -47,10 +39,10 @@ public class Rover {
     }
 
     public void turnRoverLeft() {
-        roverDirection = roverDirection.leftDirection();
+        commandCenter.turnRoverLeft(this);
     }
 
     public void turnRoverRight() {
-        roverDirection = roverDirection.rightDirection();
+        commandCenter.turnRoverRight(this);
     }
 }
