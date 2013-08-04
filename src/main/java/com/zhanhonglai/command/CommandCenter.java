@@ -1,7 +1,6 @@
 package com.zhanhonglai.command;
 
 import com.zhanhonglai.Rover;
-import com.zhanhonglai.position.RoverPosition;
 
 public class CommandCenter {
     public void move(Rover rover) {
