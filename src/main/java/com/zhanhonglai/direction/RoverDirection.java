@@ -7,9 +7,12 @@ public enum RoverDirection {
         this.directionChar = directionChar;
     }
 
-    public RoverDirection turnLeft() {
+    public RoverDirection leftDirection() {
         if (this.equals(EAST)){
            return NORTH;
+        }
+        if (this.equals(NORTH)){
+            return WEST;
         }
         return null;
     }

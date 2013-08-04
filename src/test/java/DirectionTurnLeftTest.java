@@ -10,7 +10,7 @@ public class DirectionTurnLeftTest {
         //GIVEN
         RoverDirection roverDirection = RoverDirection.EAST;
         //WHEN
-        RoverDirection result = roverDirection.turnLeft();
+        RoverDirection result = roverDirection.leftDirection();
         //THEN
         assertThat(result,equalTo(RoverDirection.NORTH));
     }
@@ -20,7 +20,7 @@ public class DirectionTurnLeftTest {
         //GIVEN
         RoverDirection roverDirection = RoverDirection.NORTH;
         //WHEN
-        RoverDirection result = roverDirection.turnLeft();
+        RoverDirection result = roverDirection.leftDirection();
         //THEN
         assertThat(result,equalTo(RoverDirection.WEST));
     }
