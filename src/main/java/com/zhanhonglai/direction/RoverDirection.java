@@ -9,18 +9,10 @@ public enum RoverDirection {
     }
 
     public RoverDirection leftDirection() {
-        if (this.equals(EAST)) {
-            return NORTH;
-        }
-        if (this.equals(NORTH)) {
-            return WEST;
-        }
-        if (this.equals(WEST)) {
-            return SOUTH;
-        }
-        if (this.equals(SOUTH)){
-            return EAST;
-        }
+        if (this.equals(EAST)) return NORTH;
+        if (this.equals(NORTH)) return WEST;
+        if (this.equals(WEST)) return SOUTH;
+        if (this.equals(SOUTH)) return EAST;
         return null;
     }
 }
