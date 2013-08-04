@@ -4,8 +4,8 @@ import com.zhanhonglai.Rover;
 import com.zhanhonglai.position.RoverPosition;
 
 public class CommandCenter {
-    public void move(RoverPosition position, String direction) {
-        position.moveAt(direction);
+    public void move(Rover rover) {
+        rover.getPosition().moveAt(rover.getDirection());
     }
 
     public void turnRight(Rover rover) {

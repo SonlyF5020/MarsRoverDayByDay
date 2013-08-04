@@ -41,6 +41,6 @@ public class Rover {
     }
 
     public void move() {
-        commandCenter.move(position, direction);
+        commandCenter.move(this);
     }
 }
