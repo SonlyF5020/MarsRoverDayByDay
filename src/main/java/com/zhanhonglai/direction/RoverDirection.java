@@ -1,6 +1,6 @@
 package com.zhanhonglai.direction;
 public enum RoverDirection {
-    NORTH("N"), EAST("E"), WEST("W");
+    NORTH("N"), EAST("E"), WEST("W"), SOUTH("S");
     private final String directionChar;
 
     RoverDirection(String directionChar) {
