@@ -17,15 +17,7 @@ public class Rover {
     }
 
     public void turnLeft() {
-        if (direction.equalsIgnoreCase("EAST")) {
-            direction = "NORTH";
-        } else if (direction.equalsIgnoreCase("NORTH")) {
-            direction = "WEST";
-        } else if (direction.equalsIgnoreCase("WEST")) {
-            direction = "SOUTH";
-        } else if (direction.equalsIgnoreCase("SOUTH")) {
-            direction = "EAST";
-        }
+        commandCenter.turnLeft(this);
     }
 
     public void turnRight() {

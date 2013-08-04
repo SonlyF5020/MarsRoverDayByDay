@@ -20,4 +20,17 @@ public class CommandCenter {
            rover.setDirection("NORTH");
         }
     }
+
+    public void turnLeft(Rover rover) {
+        String direction = rover.getDirection();
+        if (direction.equalsIgnoreCase("EAST")) {
+            rover.setDirection("NORTH");
+        } else if (direction.equalsIgnoreCase("NORTH")) {
+            rover.setDirection("WEST");
+        } else if (direction.equalsIgnoreCase("WEST")) {
+            rover.setDirection("SOUTH");
+        } else if (direction.equalsIgnoreCase("SOUTH")) {
+            rover.setDirection("EAST");
+        }
+    }
 }
