@@ -1,12 +1,14 @@
 package com.zhanhonglai;
 
 import com.zhanhonglai.command.CommandCenter;
+import com.zhanhonglai.direction.RoverDirection;
 import com.zhanhonglai.position.RoverPosition;
 
 public class Rover {
     private String direction;
     private RoverPosition position;
     private CommandCenter commandCenter = new CommandCenter();
+    private RoverDirection roverDirection;
 
     public void setDirection(String direction) {
         this.direction = direction;
