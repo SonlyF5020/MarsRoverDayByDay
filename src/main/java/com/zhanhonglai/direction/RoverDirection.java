@@ -15,4 +15,8 @@ public enum RoverDirection {
         if (this.equals(SOUTH)) return EAST;
         return null;
     }
+
+    public RoverDirection rightDirection() {
+        return null;
+    }
 }
