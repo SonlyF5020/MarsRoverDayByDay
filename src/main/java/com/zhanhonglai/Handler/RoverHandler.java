@@ -1,6 +1,7 @@
 package com.zhanhonglai.handler;
 
 import com.zhanhonglai.Rover;
+import com.zhanhonglai.position.RoverPosition;
 
 public class RoverHandler {
     private Rover rover;
@@ -14,6 +15,10 @@ public class RoverHandler {
     }
 
     public void initialPosition(String positionString) {
-
+        String[] positions = positionString.split(" ");
+        if (positions.length>1){
+            rover.setPosition(new RoverPosition(Integer.parseInt(positions[0]),Integer.parseInt(positions[1])));
+        }
+        else rover.setPosition(new RoverPosition(0,0));
     }
 }
