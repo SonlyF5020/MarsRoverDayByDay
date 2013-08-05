@@ -21,4 +21,8 @@ public class RoverHandler {
         }
         else rover.setPosition(new RoverPosition(0,0));
     }
+
+    public void initialDirection(String directionString) {
+
+    }
 }
