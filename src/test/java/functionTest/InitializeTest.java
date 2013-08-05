@@ -36,6 +36,6 @@ public class InitializeTest {
         //WHEN
         roverHandler.initialDirection("E");
         //THEN
-        assertThat(rover.getRoverDirection(),equalTo(expectedDirection));
+        assertThat(rover.getDirection(),equalTo(expectedDirection));
     }
 }

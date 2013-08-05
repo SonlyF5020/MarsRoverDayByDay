@@ -24,6 +24,6 @@ public class IntegrationTest {
         RoverPosition expectedPosition = new RoverPosition(3,-1);
         RoverDirection expectedDirection = RoverDirection.N;
         assertThat(rover.getPosition(),equalTo(expectedPosition));
-        assertThat(rover.getRoverDirection(),equalTo(expectedDirection));
+        assertThat(rover.getDirection(),equalTo(expectedDirection));
     }
 }

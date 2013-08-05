@@ -7,7 +7,7 @@ import com.zhanhonglai.position.RoverPosition;
 public class Rover {
     private RoverPosition position;
     private CommandCenter commandCenter = new CommandCenter();
-    private RoverDirection roverDirection;
+    private RoverDirection direction;
 
     public void setPosition(RoverPosition position) {
         this.position = position;
@@ -17,20 +17,20 @@ public class Rover {
         return position;
     }
 
-    public void setRoverDirection(RoverDirection roverDirection) {
-        this.roverDirection = roverDirection;
+    public void setDirection(RoverDirection direction) {
+        this.direction = direction;
     }
 
-    public RoverDirection getRoverDirection() {
-        return roverDirection;
+    public RoverDirection getDirection() {
+        return direction;
     }
 
     public void turnRoverLeft() {
-        commandCenter.turnRoverLeft(this);
+        commandCenter.turnLeft(this);
     }
 
     public void turnRoverRight() {
-        commandCenter.turnRoverRight(this);
+        commandCenter.turnRight(this);
     }
 
     public void move() {

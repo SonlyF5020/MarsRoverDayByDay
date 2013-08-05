@@ -3,15 +3,15 @@ package com.zhanhonglai.command;
 import com.zhanhonglai.Rover;
 
 public class CommandCenter {
-    public void turnRoverLeft(Rover rover) {
-        rover.setRoverDirection(rover.getRoverDirection().leftDirection());
+    public void turnLeft(Rover rover) {
+        rover.setDirection(rover.getDirection().leftDirection());
     }
 
-    public void turnRoverRight(Rover rover) {
-        rover.setRoverDirection(rover.getRoverDirection().rightDirection());
+    public void turnRight(Rover rover) {
+        rover.setDirection(rover.getDirection().rightDirection());
     }
 
     public void moveAhead(Rover rover) {
-        rover.getPosition().moveAlong(rover.getRoverDirection());
+        rover.getPosition().moveAlong(rover.getDirection());
     }
 }

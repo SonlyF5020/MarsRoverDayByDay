@@ -23,7 +23,7 @@ public class RoverHandler {
     }
 
     public void initialDirection(String directionString) {
-        rover.setRoverDirection(RoverDirection.valueOf(directionString));
+        rover.setDirection(RoverDirection.valueOf(directionString));
     }
 
     public void handleCommands(String commands) {
