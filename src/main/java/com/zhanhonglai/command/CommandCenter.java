@@ -1,6 +1,6 @@
 package com.zhanhonglai.command;
 
-import com.zhanhonglai.Rover;
+import com.zhanhonglai.rover.Rover;
 
 public class CommandCenter {
     public void turnLeft(Rover rover) {

@@ -1,4 +1,4 @@
-package com.zhanhonglai;
+package com.zhanhonglai.rover;
 
 import com.zhanhonglai.command.CommandCenter;
 import com.zhanhonglai.direction.RoverDirection;

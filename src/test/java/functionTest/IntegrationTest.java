@@ -1,6 +1,6 @@
 package functionTest;
 
-import com.zhanhonglai.Rover;
+import com.zhanhonglai.rover.Rover;
 import com.zhanhonglai.direction.RoverDirection;
 import com.zhanhonglai.handler.RoverHandler;
 import com.zhanhonglai.position.RoverPosition;

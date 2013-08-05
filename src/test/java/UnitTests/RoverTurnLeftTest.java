@@ -1,6 +1,6 @@
 package UnitTests;
 
-import com.zhanhonglai.Rover;
+import com.zhanhonglai.rover.Rover;
 import com.zhanhonglai.direction.RoverDirection;
 import org.junit.Before;
 import org.junit.Test;
