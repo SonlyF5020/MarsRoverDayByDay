@@ -1,3 +1,5 @@
+package UnitTests;
+
 import com.zhanhonglai.direction.RoverDirection;
 import org.junit.Test;
 
