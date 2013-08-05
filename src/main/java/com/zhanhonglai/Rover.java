@@ -45,4 +45,8 @@ public class Rover {
     public void turnRoverRight() {
         commandCenter.turnRoverRight(this);
     }
+
+    public void moveAhead() {
+        commandCenter.moveAhead(this);
+    }
 }

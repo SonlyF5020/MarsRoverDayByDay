@@ -1,5 +1,7 @@
 package com.zhanhonglai.position;
 
+import com.zhanhonglai.direction.RoverDirection;
+
 public class RoverPosition {
     private Integer xPosition;
     private Integer yPosition;
@@ -40,5 +42,20 @@ public class RoverPosition {
         int result = xPosition != null ? xPosition.hashCode() : 0;
         result = 31 * result + (yPosition != null ? yPosition.hashCode() : 0);
         return result;
+    }
+
+    public void moveAlong(RoverDirection roverDirection) {
+        if (roverDirection.equals(RoverDirection.EAST)) {
+            xPosition++;
+        }
+        if (roverDirection.equals(RoverDirection.WEST)) {
+            xPosition--;
+        }
+        if (roverDirection.equals(RoverDirection.NORTH)) {
+            yPosition++;
+        }
+        if (roverDirection.equals(RoverDirection.SOUTH)) {
+            yPosition--;
+        }
     }
 }

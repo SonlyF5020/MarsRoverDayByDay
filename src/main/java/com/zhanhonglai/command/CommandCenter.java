@@ -14,4 +14,8 @@ public class CommandCenter {
     public void turnRoverRight(Rover rover) {
         rover.setRoverDirection(rover.getRoverDirection().rightDirection());
     }
+
+    public void moveAhead(Rover rover) {
+        rover.getPosition().moveAlong(rover.getRoverDirection());
+    }
 }
