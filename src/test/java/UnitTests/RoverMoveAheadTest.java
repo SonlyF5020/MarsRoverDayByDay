@@ -14,7 +14,7 @@ public class RoverMoveAheadTest {
         //GIVEN
         Rover rover = new Rover();
         rover.setPosition(new RoverPosition(2,2));
-        rover.setRoverDirection(RoverDirection.EAST);
+        rover.setRoverDirection(RoverDirection.E);
         RoverPosition expectedPosition = new RoverPosition(3,2);
         //WHEN
         rover.move();
@@ -27,7 +27,7 @@ public class RoverMoveAheadTest {
         //GIVEN
         Rover rover = new Rover();
         rover.setPosition(new RoverPosition(2,2));
-        rover.setRoverDirection(RoverDirection.WEST);
+        rover.setRoverDirection(RoverDirection.W);
         RoverPosition expectedPosition = new RoverPosition(1,2);
         //WHEN
         rover.move();
@@ -40,7 +40,7 @@ public class RoverMoveAheadTest {
         //GIVEN
         Rover rover = new Rover();
         rover.setPosition(new RoverPosition(2,2));
-        rover.setRoverDirection(RoverDirection.NORTH);
+        rover.setRoverDirection(RoverDirection.N);
         RoverPosition expectedPosition = new RoverPosition(2,3);
         //WHEN
         rover.move();
@@ -53,7 +53,7 @@ public class RoverMoveAheadTest {
         //GIVEN
         Rover rover = new Rover();
         rover.setPosition(new RoverPosition(2,2));
-        rover.setRoverDirection(RoverDirection.SOUTH);
+        rover.setRoverDirection(RoverDirection.S);
         RoverPosition expectedPosition = new RoverPosition(2,1);
         //WHEN
         rover.move();

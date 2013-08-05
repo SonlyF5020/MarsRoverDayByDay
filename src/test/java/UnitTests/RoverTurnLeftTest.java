@@ -17,41 +17,41 @@ public class RoverTurnLeftTest {
     @Test
     public void shouldBeNorthWhenTurnLeftFromEast() throws Exception {
         //GIVEN
-        rover.setRoverDirection(RoverDirection.EAST);
+        rover.setRoverDirection(RoverDirection.E);
         //WHEN
         rover.turnRoverLeft();
         //THEN
-        assertThat(rover.getRoverDirection(),equalTo(RoverDirection.NORTH));
+        assertThat(rover.getRoverDirection(),equalTo(RoverDirection.N));
     }
 
     @Test
     public void shouldBeWestWhenTurnLeftFromNorth() throws Exception {
         //GIVEN
-        rover.setRoverDirection(RoverDirection.NORTH);
+        rover.setRoverDirection(RoverDirection.N);
         //WHEN
         rover.turnRoverLeft();
         //THEN
-        assertThat(rover.getRoverDirection(),equalTo(RoverDirection.WEST));
+        assertThat(rover.getRoverDirection(),equalTo(RoverDirection.W));
     }
 
     @Test
     public void shouldBeSouthWhenTurnLeftFromWest() throws Exception {
         //GIVEN
-        rover.setRoverDirection(RoverDirection.WEST);
+        rover.setRoverDirection(RoverDirection.W);
         //WHEN
         rover.turnRoverLeft();
         //THEN
-        assertThat(rover.getRoverDirection(),equalTo(RoverDirection.SOUTH));
+        assertThat(rover.getRoverDirection(),equalTo(RoverDirection.S));
     }
 
     @Test
     public void shouldBeEastWhenTurnLeftFromSouth() throws Exception {
         //GIVEN
-        rover.setRoverDirection(RoverDirection.SOUTH);
+        rover.setRoverDirection(RoverDirection.S);
         //WHEN
         rover.turnRoverLeft();
         //THEN
-        assertThat(rover.getRoverDirection(),equalTo(RoverDirection.EAST));
+        assertThat(rover.getRoverDirection(),equalTo(RoverDirection.E));
     }
 
 }

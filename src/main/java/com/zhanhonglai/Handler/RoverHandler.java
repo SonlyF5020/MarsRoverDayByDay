@@ -1,6 +1,7 @@
 package com.zhanhonglai.handler;
 
 import com.zhanhonglai.Rover;
+import com.zhanhonglai.direction.RoverDirection;
 import com.zhanhonglai.position.RoverPosition;
 
 public class RoverHandler {
@@ -23,6 +24,6 @@ public class RoverHandler {
     }
 
     public void initialDirection(String directionString) {
-
+        rover.setRoverDirection(RoverDirection.valueOf(directionString));
     }
 }

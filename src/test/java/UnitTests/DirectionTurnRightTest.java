@@ -10,40 +10,40 @@ public class DirectionTurnRightTest {
     @Test
     public void shouldBeNorthWhenTurnLeftFromWest() throws Exception {
         //GIVEN
-        RoverDirection roverDirection = RoverDirection.WEST;
+        RoverDirection roverDirection = RoverDirection.W;
         //WHEN
         RoverDirection result = roverDirection.rightDirection();
         //THEN
-        assertThat(result,equalTo(RoverDirection.NORTH));
+        assertThat(result,equalTo(RoverDirection.N));
     }
 
     @Test
     public void shouldBeEastWhenTurnLeftFromNorth() throws Exception {
         //GIVEN
-        RoverDirection roverDirection = RoverDirection.NORTH;
+        RoverDirection roverDirection = RoverDirection.N;
         //WHEN
         RoverDirection result = roverDirection.rightDirection();
         //THEN
-        assertThat(result,equalTo(RoverDirection.EAST));
+        assertThat(result,equalTo(RoverDirection.E));
     }
 
     @Test
     public void shouldBeSouthWhenTurnLeftFromEast() throws Exception {
         //GIVEN
-        RoverDirection roverDirection = RoverDirection.EAST;
+        RoverDirection roverDirection = RoverDirection.E;
         //WHEN
         RoverDirection result = roverDirection.rightDirection();
         //THEN
-        assertThat(result,equalTo(RoverDirection.SOUTH));
+        assertThat(result,equalTo(RoverDirection.S));
     }
 
     @Test
     public void shouldBeWestWhenTurnLeftFromSouth() throws Exception {
         //GIVEN
-        RoverDirection roverDirection = RoverDirection.SOUTH;
+        RoverDirection roverDirection = RoverDirection.S;
         //WHEN
         RoverDirection result = roverDirection.rightDirection();
         //THEN
-        assertThat(result,equalTo(RoverDirection.WEST));
+        assertThat(result,equalTo(RoverDirection.W));
     }
 }

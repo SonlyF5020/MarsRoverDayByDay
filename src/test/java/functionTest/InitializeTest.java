@@ -29,7 +29,7 @@ public class InitializeTest {
         Rover rover = new Rover();
         RoverHandler roverHandler = new RoverHandler();
         roverHandler.setRover(rover);
-        RoverDirection expectedDirection = RoverDirection.EAST;
+        RoverDirection expectedDirection = RoverDirection.E;
         //WHEN
         roverHandler.initialDirection("E");
         //THEN

@@ -31,16 +31,16 @@ public class RoverPosition {
     }
 
     public void moveAlong(RoverDirection roverDirection) {
-        if (roverDirection.equals(RoverDirection.EAST)) {
+        if (roverDirection.equals(RoverDirection.E)) {
             xPosition++;
         }
-        if (roverDirection.equals(RoverDirection.WEST)) {
+        if (roverDirection.equals(RoverDirection.W)) {
             xPosition--;
         }
-        if (roverDirection.equals(RoverDirection.NORTH)) {
+        if (roverDirection.equals(RoverDirection.N)) {
             yPosition++;
         }
-        if (roverDirection.equals(RoverDirection.SOUTH)) {
+        if (roverDirection.equals(RoverDirection.S)) {
             yPosition--;
         }
     }

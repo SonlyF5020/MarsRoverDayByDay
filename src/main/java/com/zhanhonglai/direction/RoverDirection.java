@@ -1,7 +1,7 @@
 package com.zhanhonglai.direction;
 
 public enum RoverDirection {
-    NORTH("N"), EAST("E"), WEST("W"), SOUTH("S");
+    N("N"), E("E"), W("W"), S("S");
     private final String directionChar;
 
     RoverDirection(String directionChar) {
@@ -9,18 +9,18 @@ public enum RoverDirection {
     }
 
     public RoverDirection leftDirection() {
-        if (this.equals(EAST)) return NORTH;
-        if (this.equals(NORTH)) return WEST;
-        if (this.equals(WEST)) return SOUTH;
-        if (this.equals(SOUTH)) return EAST;
+        if (this.equals(E)) return N;
+        if (this.equals(N)) return W;
+        if (this.equals(W)) return S;
+        if (this.equals(S)) return E;
         return null;
     }
 
     public RoverDirection rightDirection() {
-        if (this.equals(WEST)) return NORTH;
-        if (this.equals(NORTH)) return EAST;
-        if (this.equals(EAST)) return SOUTH;
-        if (this.equals(SOUTH)) return WEST;
+        if (this.equals(W)) return N;
+        if (this.equals(N)) return E;
+        if (this.equals(E)) return S;
+        if (this.equals(S)) return W;
         return null;
     }
 }
