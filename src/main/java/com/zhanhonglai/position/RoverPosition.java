@@ -11,20 +11,6 @@ public class RoverPosition {
         this.yPosition = yPosition;
     }
 
-    public void moveAt(String direction) {
-        if (direction.equals("E")) {
-            xPosition++;
-        }
-        if (direction.equals("W")) {
-            xPosition--;
-        }
-        if (direction.equals("N")) {
-            yPosition++;
-        }
-        if (direction.equals("S")) {
-            yPosition--;
-        }
-    }
 
     @Override
     public boolean equals(Object o) {

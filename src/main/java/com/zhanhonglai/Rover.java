@@ -5,18 +5,9 @@ import com.zhanhonglai.direction.RoverDirection;
 import com.zhanhonglai.position.RoverPosition;
 
 public class Rover {
-    private String direction;
     private RoverPosition position;
     private CommandCenter commandCenter = new CommandCenter();
     private RoverDirection roverDirection;
-
-    public void setDirection(String direction) {
-        this.direction = direction;
-    }
-
-    public String getDirection() {
-        return direction;
-    }
 
     public void setPosition(RoverPosition position) {
         this.position = position;
@@ -24,10 +15,6 @@ public class Rover {
 
     public RoverPosition getPosition() {
         return position;
-    }
-
-    public void move() {
-        commandCenter.move(this);
     }
 
     public void setRoverDirection(RoverDirection roverDirection) {
@@ -46,7 +33,7 @@ public class Rover {
         commandCenter.turnRoverRight(this);
     }
 
-    public void moveAhead() {
+    public void move() {
         commandCenter.moveAhead(this);
     }
 }

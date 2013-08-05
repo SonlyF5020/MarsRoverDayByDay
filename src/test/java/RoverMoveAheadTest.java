@@ -15,7 +15,7 @@ public class RoverMoveAheadTest {
         rover.setRoverDirection(RoverDirection.EAST);
         RoverPosition expectedPosition = new RoverPosition(3,2);
         //WHEN
-        rover.moveAhead();
+        rover.move();
         //THEN
         assertThat(rover.getPosition(),equalTo(expectedPosition));
     }
@@ -28,7 +28,7 @@ public class RoverMoveAheadTest {
         rover.setRoverDirection(RoverDirection.WEST);
         RoverPosition expectedPosition = new RoverPosition(1,2);
         //WHEN
-        rover.moveAhead();
+        rover.move();
         //THEN
         assertThat(rover.getPosition(),equalTo(expectedPosition));
     }
@@ -41,7 +41,7 @@ public class RoverMoveAheadTest {
         rover.setRoverDirection(RoverDirection.NORTH);
         RoverPosition expectedPosition = new RoverPosition(2,3);
         //WHEN
-        rover.moveAhead();
+        rover.move();
         //THEN
         assertThat(rover.getPosition(),equalTo(expectedPosition));
     }
@@ -54,7 +54,7 @@ public class RoverMoveAheadTest {
         rover.setRoverDirection(RoverDirection.SOUTH);
         RoverPosition expectedPosition = new RoverPosition(2,1);
         //WHEN
-        rover.moveAhead();
+        rover.move();
         //THEN
         assertThat(rover.getPosition(),equalTo(expectedPosition));
     }
