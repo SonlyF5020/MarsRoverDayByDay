@@ -4,6 +4,8 @@ import com.zhanhonglai.rover.Rover;
 import com.zhanhonglai.direction.RoverDirection;
 import com.zhanhonglai.position.RoverPosition;
 
+import java.util.Scanner;
+
 public class RoverHandler {
     private Rover rover;
 
@@ -34,5 +36,24 @@ public class RoverHandler {
             if (command.equals('R')) rover.turnRoverRight();
             else System.out.println("unknow command");
         }
+    }
+
+    public void run() {
+        System.out.println("Rover initial position:");
+        Scanner scanner = new Scanner(System.in);
+        String positionString = scanner.nextLine();
+        initialPosition(positionString);
+
+        System.out.println("Rover initial direction:");
+        Scanner scanner1 = new Scanner(System.in);
+        String directionString = scanner1.nextLine();
+        initialDirection(directionString);
+
+        System.out.println("Rover's commands:");
+        Scanner scanner2 = new Scanner(System.in);
+        String commands = scanner2.nextLine();
+        handleCommands(commands);
+
+        rover.showDetailInfo();
     }
 }
