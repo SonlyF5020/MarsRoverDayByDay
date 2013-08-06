@@ -31,21 +31,10 @@ public class RoverHandler {
     public void handleCommands(String commands) {
         for (int i = 0; i < commands.length(); i++) {
             Character command = commands.charAt(i);
-            if (command.equals('M')) {
-                rover.move();
-                continue;
-            }
-            if (command.equals('L')) {
-                rover.turnRoverLeft();
-                continue;
-            }
-            if (command.equals('R')) {
-                rover.turnRoverRight();
-                continue;
-            }
-            else {
-                System.out.println("unknow command");
-            }
+            if (command.equals('M')) rover.move();
+            else if (command.equals('L')) rover.turnRoverLeft();
+            else if (command.equals('R')) rover.turnRoverRight();
+            else System.out.println("unknow command");
         }
     }
 
