@@ -36,4 +36,11 @@ public class Rover {
     public void move() {
         commandCenter.moveAhead(this);
     }
+
+    public void showDetailInfo() {
+        System.out.print("Rover's Position: ");
+        position.showDetail();
+        System.out.print("Rover's Direction: ");
+        direction.showDetail();
+    }
 }

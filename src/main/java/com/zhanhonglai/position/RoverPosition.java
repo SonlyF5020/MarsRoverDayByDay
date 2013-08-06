@@ -44,4 +44,8 @@ public class RoverPosition {
             yPosition--;
         }
     }
+
+    public void showDetail() {
+        System.out.println("( "+ xPosition + " " + yPosition+" )");
+    }
 }

@@ -23,4 +23,8 @@ public enum RoverDirection {
         if (this.equals(S)) return W;
         return null;
     }
+
+    public void showDetail() {
+        System.out.println(directionChar);
+    }
 }

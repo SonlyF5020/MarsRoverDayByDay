@@ -31,29 +31,49 @@ public class RoverHandler {
     public void handleCommands(String commands) {
         for (int i = 0; i < commands.length(); i++) {
             Character command = commands.charAt(i);
-            if (command.equals('M')) rover.move();
-            if (command.equals('L')) rover.turnRoverLeft();
-            if (command.equals('R')) rover.turnRoverRight();
-            else System.out.println("unknow command");
+            if (command.equals('M')) {
+                rover.move();
+                continue;
+            }
+            if (command.equals('L')) {
+                rover.turnRoverLeft();
+                continue;
+            }
+            if (command.equals('R')) {
+                rover.turnRoverRight();
+                continue;
+            }
+            else {
+                System.out.println("unknow command");
+            }
         }
     }
 
     public void run() {
-        System.out.println("Rover initial position:");
-        Scanner scanner = new Scanner(System.in);
-        String positionString = scanner.nextLine();
-        initialPosition(positionString);
+        runInitialPosition();
+        runInitialDirection();
+        runHandleCommands();
+        rover.showDetailInfo();
+    }
 
-        System.out.println("Rover initial direction:");
-        Scanner scanner1 = new Scanner(System.in);
-        String directionString = scanner1.nextLine();
-        initialDirection(directionString);
-
-        System.out.println("Rover's commands:");
+    private void runHandleCommands() {
+        System.out.print("Rover's commands:");
         Scanner scanner2 = new Scanner(System.in);
         String commands = scanner2.nextLine();
         handleCommands(commands);
+    }
 
-        rover.showDetailInfo();
+    private void runInitialDirection() {
+        System.out.print("Rover initial direction:");
+        Scanner scanner1 = new Scanner(System.in);
+        String directionString = scanner1.nextLine();
+        initialDirection(directionString);
+    }
+
+    private void runInitialPosition() {
+        System.out.print("Rover initial position:");
+        Scanner scanner = new Scanner(System.in);
+        String positionString = scanner.nextLine();
+        initialPosition(positionString);
     }
 }
