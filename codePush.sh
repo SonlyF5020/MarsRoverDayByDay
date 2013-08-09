@@ -1,6 +1,10 @@
 #!/bin/sh
-echo "git push code"
+echo " ---------------------------------"
+echo "|         GIT PUSH CODE           |"
+echo " ---------------------------------"
 git add .
 git commit -m "code"
 git push
-echo "git done"
+echo " ---------------------------------"
+echo "|         GIT PUSH DONE           |"
+echo " ---------------------------------"
